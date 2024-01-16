@@ -19,3 +19,22 @@
     --blue: #1b77f3;
     --red: #cf3c3f;
 }
+
+
+.login {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 500px;
+    min-height: 100vh;
+}
+
+.login_logo {
+    width: 300px;
+    margin-bottom: 80px;
+}
+
+.login_title {
+    color: var(--deep-grey);
+}
