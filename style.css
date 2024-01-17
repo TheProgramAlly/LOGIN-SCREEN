@@ -28,14 +28,54 @@
     width: 100%;
     max-width: 500px;
     min-height: 100vh;
+    padding: clamp(35px,8%, 70px);
+    border: 1px solid red;
 }
 
 .login__logo {
-    width: 130px;
-    margin-bottom: 80px;
+    width: 180px;
+    margin-bottom: 75px;
+    border: 1px solid red;
+    display: flex;
+    align-items: flex-end;
+    
+    
 }
 
 .login__title {
     color: var(--deep-grey);
     font-size: 1.5em;
+    margin-bottom:  50px;
+    align-items: center;
+    border: 1px solid red;
+}
+
+.login__label {
+    display: block;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.input {
+    width: 100%;
+    background: var(--light-grey);
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    font-size: 0.9em;
+    padding: 25px 10px 10px;
+    font-weight: 600;
+    color: var(--deep-grey)
+
+}
+
+.login__label span {
+    position: absolute;
+    font-size: 0.8em;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: var(--medium-grey);
+    margin: 20px;
+    cursor: text;
+
 }
