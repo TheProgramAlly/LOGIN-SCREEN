@@ -21,6 +21,10 @@
     --green: #0E7A0D;
 }
 
+main {
+    display: flex;
+}
+
 
 .login {
     display: flex;
@@ -30,7 +34,16 @@
     max-width: 600px;
     min-height: 100vh;
     padding: clamp(35px,8%, 70px);
+    justify-content: space-between;
     
+}
+
+.wrapper {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .login__logo {
@@ -192,4 +205,21 @@
 
 .login__button:disabled svg {
     fill: var(--grey)
+}
+
+.login__link {
+    font-size: 0.8em;
+    text-decoration:  none;
+    color: var(--medium-grey);
+    text-transform: uppercase;
+    margin-bottom: 5px;
+    font-weight: 700;
+}
+
+.wallpaper {
+    width: 100%;
+    background-image: url('./images/wallpaper.jpg');
+    background-size:cover;
+    background-position: center;
+    flex: 1;
 }
