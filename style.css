@@ -29,13 +29,12 @@
     max-width: 600px;
     min-height: 100vh;
     padding: clamp(35px,8%, 70px);
-    border: 1px solid red;
+    
 }
 
 .login__logo {
     width: 180px;
     margin-bottom: 75px;
-    border: 1px solid red;
     display: flex;
     align-items: flex-end;
     
@@ -47,7 +46,7 @@
     font-size: 1.5em;
     margin-bottom:  50px;
     align-items: center;
-    border: 1px solid red;
+    
 }
 
 .login__label {
@@ -77,10 +76,17 @@
     color: var(--medium-grey);
     margin: 20px;
     cursor: text;
+    transition: all 200ms ease;
 
 }
 
 .input:focus {
     background-color: var(--whitesmoke);
     border: 3px solid var(--deep-grey);
+}
+
+.login__label .span-active {
+    font-size:0.7em;
+    margin: 8px 10px;
+
 }
