@@ -26,7 +26,7 @@
     flex-direction: column;
     align-items: center;
     width: 100%;
-    max-width: 500px;
+    max-width: 600px;
     min-height: 100vh;
     padding: clamp(35px,8%, 70px);
     border: 1px solid red;
